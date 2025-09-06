@@ -24,10 +24,7 @@ Este projeto é um sistema simples em PHP para calcular a média de notas de alu
 - `style.css` — Estilos visuais do sistema
 - `README.md` — Este arquivo de instruções
 
-## Exemplo de uso
-
-![Exemplo de tela do formulário](screenshot.png)
 
 ## Autor
 
-Desenvolvido por [Seu Nome] para a disciplina de
+Desenvolvido por Ellen, para a disciplina de Back-end
