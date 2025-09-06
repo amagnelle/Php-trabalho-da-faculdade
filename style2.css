@@ -1,0 +1,66 @@
+/* Define a cor de fundo da página e centraliza o conteúdo */
+body{
+    background-color: rgb(51, 71, 14);
+    display: flex;
+    justify-content: center;
+}
+
+/* Estiliza o título principal */
+h1{
+    align-items: center;
+    text-align: center;
+    color: #b0920f;
+}
+
+/* Estiliza a box central (container) */
+.container{
+    align-items: center;           /* Centraliza itens verticalmente (se usado com flex) */
+    width: 300px;                  /* Largura fixa da box */
+    margin: auto;                  /* Centraliza horizontalmente */
+    padding: 20px;                 /* Espaçamento interno */
+    background: #f0e15f;           /* Cor de fundo amarela */
+    border-radius: 10px;           /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Sombra */
+    font-family: Arial, sans-serif;/* Fonte */
+    color: rgb(0, 0, 0);           /* Cor do texto preta */
+    align-self: center;            /* Centraliza se usado com flex */
+}
+
+/* Organiza os inputs do formulário em coluna e define espaço entre eles */
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+    color: black;                  /* Cor do texto dos inputs */
+}
+
+/* Estiliza os campos de input */
+input{
+    text-align: center;            /* Centraliza texto dentro do input */
+    width: 80%;                    /* Largura dos inputs */
+    height: 32px;                  /* Altura dos inputs */
+    border-radius: 8px;            /* Bordas arredondadas */
+    border: none;                  /* Remove borda padrão */
+    padding: 0 10px;               /* Espaçamento interno lateral */
+    font-size: 16px;               /* Tamanho da fonte */
+    margin: 0 auto;                /* Centraliza input */
+}
+
+/* Estiliza o botão de envio */
+#enviar{
+    background-color: #4b4e04;     /* Cor de fundo do botão */
+    border: none;                  /* Remove borda padrão */
+    color: rgb(0, 0, 0);           /* Cor do texto preta */
+    padding: 10px 20px;            /* Espaçamento interno */
+    text-align: center;            /* Centraliza texto */
+    text-decoration: none;         /* Remove sublinhado */
+    display: inline-block;         /* Exibe como bloco inline */
+    font-size: 16px;               /* Tamanho da fonte */
+    cursor: pointer;               /* Cursor de mão ao passar */
+    border-radius: 8px;            /* Bordas arredondadas */
+}
+
+/* Garante que todo texto dentro da box fique preto */
+.container, .container * {
+    color: rgb(0, 0, 0) !important;
+}
